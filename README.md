@@ -12,7 +12,7 @@ Animal content feed, for all animal lovers with amazing features such a daily an
 ## APIs
 ***
 A list of API's used within the project:
-* [Pixabay]("https://pixabay.com/api/?):
+* [Pixabay] https://pixabay.com/api/?:
 ## Installation
 ***
 A little intro about the installation. 
