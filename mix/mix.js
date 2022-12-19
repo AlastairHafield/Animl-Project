@@ -59,3 +59,18 @@ var displayData = function() {
 }
 
 getArticles();
+
+document.querySelector('#image1').addEventListener('click', function() {
+  document.getElementById('modal1').classList.toggle('opacity-0');
+  document.getElementById('modal1').classList.toggle('pointer-events-none');
+});
+document.querySelector('#image2').addEventListener('click', function() {
+  document.getElementById('modal2').classList.toggle('opacity-0');
+  document.getElementById('modal2').classList.toggle('pointer-events-none');
+});
+
+  
+document.querySelector('.modal-close').addEventListener('click', function() {
+  document.querySelector('.modal').classList.toggle('opacity-0');
+  document.querySelector('.modal').classList.toggle('pointer-events-none');
+});
