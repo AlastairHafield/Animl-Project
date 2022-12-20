@@ -1,0 +1,17 @@
+body {
+  background-color: turquoise;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.header {
+  display: flex;
+  font-size: x-large;
+  padding: 50px;
+  margin: 10px;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.h2 {
+  font-size: larger;
+}
