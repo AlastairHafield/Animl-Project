@@ -1,17 +1,44 @@
 body {
   background-color: turquoise;
   font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
 }
 
 .header {
   display: flex;
-  font-size: x-large;
+  background-color: black;
+  color: white;
+  border-radius: 50vh;
+  font-size: 50px;
+  font-weight: 100;
   padding: 50px;
   margin: 10px;
   justify-content: center;
   align-items: flex-end;
 }
 
-.h2 {
-  font-size: larger;
+.bears {
+  display: flex;
+  font-size: 30px;
+  padding: auto;
+}
+.dogs {
+  display: flex;
+  font-size: 30px;
+  padding: auto;
+}
+.cats {
+  display: flex;
+  font-size: 30px;
+  padding: auto;
+}
+.snakes {
+  display: flex;
+  font-size: 30px;
+  padding: auto;
+}
+.spiders {
+  display: flex;
+  font-size: 30px;
+  padding: auto;
 }
