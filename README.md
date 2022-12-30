@@ -1,47 +1,36 @@
-## ANIML README
+## Table of Contents
 1. [General Info](#general-info)
-2. [APIs](#APIs)
-3. [Installation](#installation)
-4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
+2. [Languages](#languages)
+3. [Acceptance Criteria](#acceptance-criteria)
+4. [Link To Deployed Action](#link-to-deployed-action)
 ### General Info
 ***
-Animal content feed, for all animal lovers with amazing features such a daily animal quiz, animal facts and random animal content. 
-### Screenshot
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
-## APIs
-***
-A list of API's used within the project:
-* [Pixabay] https://pixabay.com/api/:
-## Installation
-***
-A little intro about the installation. 
-```
-$ git clone https://example.com
-$ cd ../path/to/the/file
+This is an attempt to solve module challenge 4 of UoB bootcamp. 
+### Screenshot![Screenshot (9)](https://user-images.githubusercontent.com/116799866/205111807-1d7e4f4f-1891-465e-9e55-499a3dde6355.png)
 
+## Languages
+***
+Languages used within the project:
+* HTML
+* CSS
+* JavaScript
+## Acceptance Criteria
+***
+Below is the list of acceptance criteria this project must hit in order to achieve full marks: 
 ```
+GIVEN I am taking a code quiz
+WHEN I click the start button
+THEN a timer starts and I am presented with a question
+WHEN I answer a question
+THEN I am presented with another question
+WHEN I answer a question incorrectly
+THEN time is subtracted from the clock
+WHEN all questions are answered or the timer reaches 0
+THEN the game is over
+WHEN the game is over
+THEN I can save my initials and score
+```
+## Link to Deployed Action
+***
+https://indiataylor1.github.io/timed-coding-quiz/
 
-## Collaboration
-***
-This application was made with the collaboration of these develpoers;
-* AlastairHatfield
-* Indiataylor1
-* josephcotterell
-* JAYSPOH
-## FAQs
-***
-A list of frequently asked questions
-1. **This is a question in bold**
-Answer to the first question with _italic words_. 
-2. __Second question in bold__ 
-To answer this question, we use an unordered list:
-* First point
-* Second Point
-* Third point
-3. **Third question in bold**
-Answer to the third question with *italic words*.
-4. **Fourth question in bold**
-| Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead |
-|:--------------|:-------------:|--------------:|
-| text-align left | text-align center | text-align right |
