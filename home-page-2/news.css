@@ -51,4 +51,20 @@ nav ul li a:hover {
     color: salmon;
 }
 
+/*------NEWS ITEMS STYLING START------*/
+
+.news-box {
+    border: solid 2px salmon;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.news-box h1 {
+    color: #fff;
+}
+
+.news-box p {
+    color: salmon;
+}
+
 
