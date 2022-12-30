@@ -1,7 +1,7 @@
 // list of all questions, choices, and answers
 var questions = [{
-    question: "Do poloar bears live in the north or south pole?",
-    choices: [ "North", "South"],
+    question: "Where do Polar bears live?",
+    choices: ["East Pole", "North Pole", "West Pole","South Pole"],
     answer: "North"
  
  }, {
