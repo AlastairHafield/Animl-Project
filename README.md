@@ -5,8 +5,8 @@
 4. [Link To Deployed Action](#link-to-deployed-action)
 ### General Info
 ***
-This is an attempt to solve module challenge 4 of UoB bootcamp. 
-### Screenshot![Screenshot (9)](https://user-images.githubusercontent.com/116799866/205111807-1d7e4f4f-1891-465e-9e55-499a3dde6355.png)
+This is the Animl. Quiz. 
+### Screenshot needs to go here
 
 ## Languages
 ***
@@ -32,5 +32,5 @@ THEN I can save my initials and score
 ```
 ## Link to Deployed Action
 ***
-https://indiataylor1.github.io/timed-coding-quiz/
+
 
