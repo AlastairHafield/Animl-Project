@@ -11,73 +11,74 @@
 
 </head>
 <body class="bg-image">
-  <nav class="py-4">
-  <div class="container mx-auto flex items-center justify-between justify-end flex-row-reverse">
-    <div class="flex items-center">
-      <a class="px-4 py-2 font-bold text-2xl rounded-full hover:text-orange-500" href="#">Home</a>
-      <a class="px-4 py-2 font-bold text-2xl rounded-full hover:text-orange-500" href="#">Quiz</a>
-      <a class="px-4 py-2 font-bold text-2xl rounded-full hover:text-orange-500" href="#">Facts</a>
-    </div>
-  </div>
+  <nav>
+    <img src="" class="logo">
+    <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">QUIZ</a></li>
+        <li><a href="#">FACTS</a></li>
+        <li><a href="#">NEWS</a></li>
+        <li><a href="#">MIX</a></li>
+    </ul>
 </nav>
-  <div class="container mx-auto mt-10 opacity-90">
+  <div class="container mx-auto mt-10 ">
     <div class="flex justify-between items-center mb-6">
-        <button class="px-4 py-2 font-bold text-gray-800 rounded-full hover:text-white hover:bg-gray-700 text-5xl" id="mix-button">Mix</button>
+        <button id="mix-button">Mix</button>
     </div>
-    <div class="flex flex-wrap justify-center">
+    <div class="flex flex-wrap justify-center opacity-90">
       <div class="w-1/5 overflow-hidden mx-4 my-4 modal-open bg-gray-700">
-        <img src="assets/pawprint.png" alt="Image1" class="object-contain rounded-md" style="object-fit: contain; width: 100%; height: 100%;" id="image1">
+        <img src="assets/cat.png" alt="Image1" class="object-contain rounded-md" style="object-fit: contain; width: 100%; height: 100%;" id="image1">
         <div class="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center" id="modal1">
           <div class="modal-overlay absolute w-full h-full bg-gray-900 opacity-50"></div>
       
           <div class="modal-container bg-white w-11/12 md:max-w-md mx-auto rounded shadow-lg z-50 overflow-y-auto">
             <div class="modal-content py-4 text-left px-6">
-              <img src="assets/pawprint.png" id="modal-image1">
+              <img src="assets/cat.png" id="modal-image1">
               <button class="modal-close1 text-2xl font-bold text-black hover:text-white float-right p-2" id="modal-close1">&times;</button>
             </div>
           </div>
         </div>
       </div>
-      <div class="w-1/5 overflow-hidden  m-4 align-middle justify-center text-center" >
-        <video src="https://cdn.pixabay.com/vimeo/320725678/Robin%20-%2021723.mp4?width=640&hash=36b2ad3bdf501586fbf6bcf02efd34e97518e8d7" controls id="video1" class="video rounded-md text-center align-middle" autoplay loop></video>
+      <div class="w-1/5 overflow-hidden mt-10 m-4" >
+        <video src="https://cdn.pixabay.com/vimeo/320725678/Robin%20-%2021723.mp4?width=640&hash=36b2ad3bdf501586fbf6bcf02efd34e97518e8d7" id="video1" class="video rounded-md text-center align-middle" autoplay loop muted></video>
       </div>
-      <div class="w-1/5 overflow-hidden m-4" >
-        <img src="assets/pawprint.png" alt="Image 2" class="object-contain rounded-md" style="object-fit: contain; width: 100%; height: 100%;" id="image2">
+      <div class="w-1/5  overflow-hidden m-4" >
+        <img src="assets/cat.png" alt="Image 2" class="object-contain rounded-md" style="object-fit: contain; width: 100%; height: 100%;" id="image2">
         <div class="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center" id="modal2">
           <div class="modal-overlay absolute w-full h-full bg-gray-900 opacity-50"></div>
       
           <div class="modal-container bg-white w-11/12 md:max-w-md mx-auto rounded shadow-lg z-50 overflow-y-auto">
             <div class="modal-content py-4 text-left px-6">
-              <img src="assets/pawprint.png" id="modal-image2">
+              <img src="assets/cat.png" id="modal-image2">
               <button class="modal-close2 text-2xl font-bold text-black hover:text-white float-right p-2" id="modal-close2">&times;</button>
             </div>
           </div>
         </div>
       </div>
       <div class="w-1/5 overflow-hidden mt-10 m-4" >
-        <video src="https://cdn.pixabay.com/vimeo/320725678/Robin%20-%2021723.mp4?width=640&hash=36b2ad3bdf501586fbf6bcf02efd34e97518e8d7" controls id="video2" class="video rounded-md" autoplay loop></video>
+        <video src="https://cdn.pixabay.com/vimeo/320725678/Robin%20-%2021723.mp4?width=640&hash=36b2ad3bdf501586fbf6bcf02efd34e97518e8d7" id="video2" class="video rounded-md" autoplay loop muted></video>
       </div>
       <div class="w-1/5 overflow-hidden mt-10 m4" >
-        <video src="https://cdn.pixabay.com/vimeo/320725678/Robin%20-%2021723.mp4?width=640&hash=36b2ad3bdf501586fbf6bcf02efd34e97518e8d7" controls id="video3" class="video rounded-md" autoplay loop></video>
+        <video src="https://cdn.pixabay.com/vimeo/320725678/Robin%20-%2021723.mp4?width=640&hash=36b2ad3bdf501586fbf6bcf02efd34e97518e8d7" id="video3" class="video rounded-md" autoplay loop muted></video>
       </div>
       <div class="w-1/5 overflow-hidden m-4">
-        <img src="assets/pawprint.png" alt="Image 2" class="object-contain rounded-md" style="object-fit: contain; width: 100%; height: 100%;" id="image3">
+        <img src="assets/cat.png" alt="Image 2" class="object-contain rounded-md" style="object-fit: contain; width: 100%; height: 100%;" id="image3">
         <div class="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center" id="modal3">
           <div class="modal-overlay absolute w-full h-full bg-gray-900 opacity-50"></div>
       
           <div class="modal-container bg-white w-11/12 md:max-w-md mx-auto rounded shadow-lg z-50 overflow-y-auto">
             <div class="modal-content py-4 text-left px-6">
-              <img src="assets/pawprint.png" id="modal-image3">
-              <button class="modal-close3 text-2xl font-bold text-black hover:text-white float-right p-2" id="modal-close5">&times;</button>
+              <img src="assets/cat.png" id="modal-image3">
+              <button class="modal-close3 text-2xl font-bold text-black hover:text-white float-right p-2" id="modal-close3">&times;</button>
             </div>
           </div>
         </div>
       </div>
       <div class="w-1/5 overflow-hidden mt-10 m-4 bg-none">
-        <video src="https://cdn.pixabay.com/vimeo/320725678/Robin%20-%2021723.mp4?width=640&hash=36b2ad3bdf501586fbf6bcf02efd34e97518e8d7" controls id="video4" class="video rounded-md" autoplay loop></video>
+        <video src="https://cdn.pixabay.com/vimeo/320725678/Robin%20-%2021723.mp4?width=640&hash=36b2ad3bdf501586fbf6bcf02efd34e97518e8d7"  id="video4" class="video rounded-md" autoplay loop muted></video>
       </div>
       <div class="w-1/5 overflow-hidden m-4" >
-        <img src="assets/pawprint.png" alt="Image 2" class="object-contain rounded-md" style="object-fit: contain; width: 100%; height: 100%;" id="image4">
+        <img src="assets/cat.png" alt="Image 2" class="object-contain rounded-md" style="object-fit: contain; width: 100%; height: 100%;" id="image4">
         <div class="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center" id="modal4">
           <div class="modal-overlay absolute w-full h-full bg-gray-900 opacity-50"></div>
       
@@ -90,64 +91,64 @@
         </div>
       </div>
       <div class="w-1/5 overflow-hidden m-4 bg-none">
-        <img src="assets/pawprint.png" alt="Image 2" class="object-contain rounded-md" style="object-fit: contain; width: 100%; height: 100%;" id="image5">
+        <img src="assets/cat.png" alt="Image 2" class="object-contain rounded-md" style="object-fit: contain; width: 100%; height: 100%;" id="image5">
         <div class="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center" id="modal5">
           <div class="modal-overlay absolute w-full h-full bg-gray-900 opacity-50"></div>
       
           <div class="modal-container bg-white w-11/12 md:max-w-md mx-auto rounded shadow-lg z-50 overflow-y-auto">
             <div class="modal-content py-4 text-left px-6">
-              <img src="assets/pawprint.png" id="modal-image5">
-              <button class="modal-close5 text-2xl font-bold text-black hover:text-white float-right p-2" id="modal-close9">&times;</button>
+              <img src="assets/cat.png" id="modal-image5">
+              <button class="modal-close5 text-2xl font-bold text-black hover:text-white float-right p-2" id="modal-close5">&times;</button>
             </div>
           </div>
         </div>
       </div>
       <div class="w-1/5 overflow-hidden mt-10 bg-none m-4">
-        <video src="https://cdn.pixabay.com/vimeo/320725678/Robin%20-%2021723.mp4?width=640&hash=36b2ad3bdf501586fbf6bcf02efd34e97518e8d7" controls id="video5" class="video rounded-md" autoplay loop></video>
+        <video src="https://cdn.pixabay.com/vimeo/320725678/Robin%20-%2021723.mp4?width=640&hash=36b2ad3bdf501586fbf6bcf02efd34e97518e8d7" id="video5" class="video rounded-md" autoplay loop muted></video>
       </div>
       <div class="w-1/5 overflow-hidden m-4 bg-none">
-        <img src="assets/pawprint.png" alt="Image 2" class="object-contain rounded-md" style="object-fit: contain; width: 100%; height: 100%;" id="image6">
+        <img src="assets/cat.png" alt="Image 2" class="object-contain rounded-md" style="object-fit: contain; width: 100%; height: 100%;" id="image6">
         <div class="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center" id="modal6">
           <div class="modal-overlay absolute w-full h-full bg-gray-900 opacity-50"></div>
       
           <div class="modal-container bg-white w-11/12 md:max-w-md mx-auto rounded shadow-lg z-50 overflow-y-auto">
             <div class="modal-content py-4 text-left px-6">
-              <img src="assets/pawprint.png" id="modal-image6">
+              <img src="assets/cat.png" id="modal-image6">
               <button class="modal-close text-2xl font-bold text-black hover:text-white float-right p-2" id="modal-close6">&times;</button>
             </div>
           </div>
         </div>
       </div>
       <div class="w-1/5 overflow-hidden mt-10 bg-none m-4">
-        <video src="https://cdn.pixabay.com/vimeo/320725678/Robin%20-%2021723.mp4?width=640&hash=36b2ad3bdf501586fbf6bcf02efd34e97518e8d7" controls id="video6" class="video rounded-md" autoplay loop></video>
+        <video src="https://cdn.pixabay.com/vimeo/320725678/Robin%20-%2021723.mp4?width=640&hash=36b2ad3bdf501586fbf6bcf02efd34e97518e8d7" id="video6" class="video rounded-md" autoplay loop muted></video>
       </div>
       <div class="w-1/5 overflow-hidden mt-10 bg-none m-4">
-        <video src="https://cdn.pixabay.com/vimeo/320725678/Robin%20-%2021723.mp4?width=640&hash=36b2ad3bdf501586fbf6bcf02efd34e97518e8d7" controls id="video7" class="video rounded-md"  autoplay loop></video>
+        <video src="https://cdn.pixabay.com/vimeo/320725678/Robin%20-%2021723.mp4?width=640&hash=36b2ad3bdf501586fbf6bcf02efd34e97518e8d7" id="video7" class="video rounded-md"  autoplay loop muted></video>
       </div>
       <div class="w-1/5 overflow-hidden m-4 bg-none">
-        <img src="assets/pawprint.png" alt="Image 2" class="object-contain rounded-md" style="object-fit: contain; width: 100%; height: 100%;" id="image7">
+        <img src="assets/cat.png" alt="Image 2" class="object-contain rounded-md" style="object-fit: contain; width: 100%; height: 100%;" id="image7">
         <div class="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center" id="modal7">
           <div class="modal-overlay absolute w-full h-full bg-gray-900 opacity-50"></div>
       
           <div class="modal-container bg-white w-11/12 md:max-w-md mx-auto rounded shadow-lg z-50 overflow-y-auto">
             <div class="modal-content py-4 text-left px-6">
-              <img src="assets/pawprint.png" id="modal-image7">
+              <img src="assets/cat.png" id="modal-image7">
               <button class="modal-close text-2xl font-bold text-black hover:text-white float-right p-2" id="modal-close7">&times;</button>
             </div>
           </div>
         </div>
       </div>
       <div class="w-1/5 overflow-hidden mt-10 bg-none m-4">
-        <video src="https://cdn.pixabay.com/vimeo/320725678/Robin%20-%2021723.mp4?width=640&hash=36b2ad3bdf501586fbf6bcf02efd34e97518e8d7" controls id="video8" class="video rounded-md" autoplay loop></video>
+        <video src="https://cdn.pixabay.com/vimeo/320725678/Robin%20-%2021723.mp4?width=640&hash=36b2ad3bdf501586fbf6bcf02efd34e97518e8d7" id="video8" class="video rounded-md" autoplay loop muted></video>
       </div>
       <div class="w-1/5 overflow-hidden m-4 bg-none">
-        <img src="assets/pawprint.png" alt="Image 2" class="object-contain rounded-md" style="object-fit: contain; width: 100%; height: 100%;" id="image8">
+        <img src="assets/cat.png" alt="Image 2" class="object-contain rounded-md" style="object-fit: contain; width: 100%; height: 100%;" id="image8">
         <div class="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center" id="modal8">
           <div class="modal-overlay absolute w-full h-full bg-gray-900 opacity-50"></div>
       
           <div class="modal-container bg-white w-11/12 md:max-w-md mx-auto rounded shadow-lg z-50 overflow-y-auto">
             <div class="modal-content py-4 text-left px-6">
-              <img src="assets/pawprint.png" id="modal-image8">
+              <img src="assets/cat.png" id="modal-image8">
               <button class="modal-close text-2xl font-bold text-black hover:text-white float-right p-2" id="modal-close8">&times;</button>
             </div>
           </div>

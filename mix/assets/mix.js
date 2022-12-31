@@ -7,10 +7,11 @@ var pageNum = 1;
 // Set the initial counter value
 var counter = 0;
 //video url
-var videoURL = "https://pixabay.com/api/videos/?key=" + API_KEY + "&category=animals"
+
 
 var getVideos = function(){
   //Url for api with query parameters
+  var videoURL = "https://pixabay.com/api/videos/?key=" + API_KEY + "&page=" +pageNum+ "&category=animals"
   fetch(videoURL)
       .then(function (response){
           if (response.ok) {
@@ -27,7 +28,7 @@ var getVideos = function(){
 
 var getArticles = function(){
     //Url for api with query parameters
-    var URL = "https://pixabay.com/api/?key="+API_KEY+"&page=" +pageNum+ "&category="+encodeURIComponent('animals');
+    var URL = "https://pixabay.com/api/?key="+API_KEY+"&page=" +pageNum+ "&category=animals";
     fetch(URL)
         .then(function (response){
             if (response.ok) {
@@ -46,7 +47,10 @@ button.addEventListener("click", function() {
   counter++;
 
   // Perform your API request with the current pageNum value
-  getArticles();
+  
+  Promise.all([getArticles(), getVideos()]).then(function() {
+    // Both functions have completed
+  });
 
   // Increment the pageNum value, but reset it to 1 if it reaches 26
   if (pageNum == 26) {
@@ -54,6 +58,7 @@ button.addEventListener("click", function() {
   } else {
     pageNum++;
   }
+  
 });
 
 var displayData = function() {
@@ -106,6 +111,7 @@ getVideos();
 function toggleModal(modalId) {
   document.getElementById(modalId).classList.toggle('opacity-0');
   document.getElementById(modalId).classList.toggle('pointer-events-none');
+  document.getElementById(modalId).style.zIndex = 10;
 }
 
 for (let i = 1; i <= 8; i++) {

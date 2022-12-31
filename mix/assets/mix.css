@@ -2,9 +2,44 @@ body{
     background-image: url('pexels-fox-213399.jpg');
     background-position: center; /* centers the image within the element */
     background-size: cover;
-  
-
   }
-.image{
-    background-color: transparent;
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+nav ul li a:hover {
+    color: salmon;
+}
+#mix-button{
+  text-decoration: none;
+  color: #fff;
+  font-size: 50px;
+}
+
+#mix-button:hover{
+  color: salmon;
 }
