@@ -1,8 +1,9 @@
 body{
-    background-image: url('pexels-arthouse-studio-4530515\ \(1\).jpg');
+    background-image: url('pexels-fox-213399.jpg');
     background-position: center; /* centers the image within the element */
-    background-repeat: no-repeat; /* prevents the image from repeating */
-    background-attachment: fixed; /* fixes the image in place */
+    background-size: cover;
+  
+
   }
 .image{
     background-color: transparent;
