@@ -1,13 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+
 body {
-  background-color: turquoise;
+  background-color: white;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: large;
 }
 
 .header {
   display: flex;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   border-radius: 50vh;
   font-size: 50px;
   font-weight: 100;
@@ -16,7 +18,13 @@ body {
   justify-content: center;
   align-items: flex-end;
 }
-
+.button {
+  background-color: grey;
+  font-size: x-large;
+  padding: 10px;
+  border-radius: 20px;
+  border-color: crimson;
+}
 .bears {
   display: flex;
   font-size: 30px;
