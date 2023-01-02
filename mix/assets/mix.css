@@ -1,8 +1,17 @@
-body{
-    background-image: url('pexels-fox-213399.jpg');
-    background-position: center; /* centers the image within the element */
+html{
+    background-image: url('pexels-antony-trivet-14178590.jpg');
     background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    position: fixed;
+    max-width: 100%;
+    max-height: 100%;
+    
   }
+img{
+  max-height: 400px;
+  max-width: 400px;
+}
 nav {
     width: 100%;
     position: absolute;
