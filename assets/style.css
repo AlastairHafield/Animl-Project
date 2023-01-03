@@ -1,15 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
-
 body {
   background-color: white;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: large;
 }
 
+.container {
+  background-color: blueviolet;
+}
+
 .header {
   display: flex;
   background-color: white;
-  color: black;
+  color: white;
   border-radius: 50vh;
   font-size: 50px;
   font-weight: 100;
@@ -30,15 +32,35 @@ body {
   font-size: 30px;
   padding: auto;
 }
+.bear-container {
+  background-image: url(./img/kodiak-brown-bear-adult-portrait-wildlife-158109.jpeg);
+  width: 100%;
+}
+
 .dogs {
   display: flex;
   font-size: 30px;
   padding: auto;
 }
+
+.dog-container {
+  background-image: url(./img/pexels-photo-333083dog2.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+}
 .cats {
   display: flex;
   font-size: 30px;
   padding: auto;
+}
+
+.cat-container {
+  background-image: url(./img/pexels-photo-617278cat.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  color: aliceblue;
 }
 .snakes {
   display: flex;
