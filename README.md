@@ -26,11 +26,13 @@ $ cd ../path/to/the/file
 
 ## Collaboration
 ***
-This application was made with the collaboration of these develpoers;
+This application was made with the collaboration of the following developers;
+
 * AlastairHatfield
 * Indiataylor1
-* josephcotterell
-* JAYSPOH
+* Josephcotterell
+* SHAJLP
+
 ## FAQs
 ***
 A list of frequently asked questions
