@@ -13,20 +13,19 @@
     --before-color: hsl(32, 100%, 47%);
     --after-color: #000680;
    }
-   .container {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    padding: 0.5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3)), url(/home-page-2/assets/tiger.jpg);
+   body {
+
+   
+    background-image: url('./jungle3.jpg');
+    background-size: cover;
+    /* background-image: linear-gradient(rgba(12,3,51,0.3),rgb(244, 244, 244)), url(./assets/Jungle-Vista2.jpg); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
 }
-   {
+   
 
-   }
+   
    nav {
     width: 100%;
     position: absolute;
@@ -50,7 +49,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 17px;
 }
 
@@ -65,6 +64,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     margin: 10px 10px 100px 0;
+    display: inline-block;
    
    }
    
@@ -207,7 +207,7 @@ nav ul li a:hover {
    }
    
    #highscore {
-    color: #14c5cf;
+    color: #dc1536;
     font-size: 1.5rem;
     margin-left: 10px;
     cursor: pointer;

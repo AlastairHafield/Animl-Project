@@ -10,7 +10,7 @@ var questions = [{
     answer: "Cats"
  
  }, {
-    question: "where in the world do tigers live?",
+    question: "Where in the world do Tigers live?",
     choices: ["Bullring shopping centre",  "Asia",  "Argentina",  "Your nans house"],
     answer: "Asia"
  

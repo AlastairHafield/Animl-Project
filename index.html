@@ -7,33 +7,23 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   <title>ANIML QUIZ</title>
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io-32x32.png">
-  <img src="Jungle-Vista2.jpg" alt="jungle scene">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+ 
   
   <link rel="stylesheet" href="./assets/style.css">
   
-
-
+  
   </head>
+ 
+<body> 
+ 
+
+  
+</body>
+  
 
 <body>
-    
-    
-    <!-- <nav class="bg-gray-800 py-4"> -->
-        <!-- <div class="container mx-auto flex items-center justify-between"> -->
-          <!-- <div class="flex items-center"> -->
-
-            <!-- <img src="./assets/pawprint.png" alt="Logo" class="w-10 h-10 rounded-full ml-4"> -->
-            <!-- <div class="ml-4 text-white font-semibold text-5xl tracking-tight"> Animl</div> -->
-          <!-- </div> -->
-          <!-- <div class="flex items-center"> -->
-            <!-- <a class="px-4 py-2 font-bold text-gray-300 text-2xl rounded-full hover:text-white hover:bg-gray-700" href="#">Home</a> -->
-            <!-- <a class="px-4 py-2 font-bold text-gray-300 text-2xl rounded-full hover:text-white hover:bg-gray-700" href="#">Quiz</a> -->
-            <!-- <a class="px-4 py-2 font-bold text-gray-300 text-2xl rounded-full hover:text-white hover:bg-gray-700" href="#">Facts</a> -->
-          <!-- </div> -->
-        <!-- </div> -->
-      <!-- </nav> -->
       
          <div class="container">
             <nav>
@@ -45,32 +35,35 @@
                     <li><a href="#">NEWS</a></li>
                     <li><a href="#">MIX</a></li>
                 </ul>
-
-            </nav> 
             
+             
+           
+          </nav>
             <h1 class="text-3xl font-bold underline text-center">
-                Animl Quiz!!!!
-              </h1>
-              <body>
+                Animl Quiz!!!!<div class="header">
+                                                               
+                </h1>
+         </div>               
              
-                <header class="header">
-                    <div id="highscore">
-                        View Highscores
-                    </div>
-                    <p id="timer">Time: 0</p>
-                    
-                </header>
-             
-                <!-- Welcome Page -->
-                
+               <!---- Welcome Page -->
             
                 <div id ="container" class="container">
                     <div id="welcome-page" class="welcome-page">
+                      
                         <h2 class="welcome">Welcome to the Animl Quiz!</h2>
                         <p>Answer the following questions within the time limit.<br>However, any incorrect answer would come with a 10 second penalty!</p>
+                       
+
                     </div>
-             
+                    
+                    
+                    <div id="Quiz-container" class="quiz-container"></div>
+                    <div class="controls">
+                      <button id="start-btn" class="start-btn" type="submit">START QUIZ</button>
+                      </div>
+
                     <!-- End Page -->
+                    
                     <div id="end-page" class="end hide">
                         <h2 class="end">All Done!</h2>
                         <p id="score"></p>
@@ -84,6 +77,8 @@
               
             
              <!-- Questions -->
+
+             
              <div id="question-container" class="hide">
                 <div id="question">Question</div>
                 <div id="answer-buttons" class="buttons">
@@ -96,14 +91,21 @@
             <div id="display" class="correct hide"></div>
             <div id="display2" class="incorrect hide"></div>
             </div>
-            <div class="controls">
-            <button id="start-btn" class="start-btn" type="submit">Start Quiz</button>
-            </div>
+           
             </div>
             
             <!-- Score Page -->
+            <div id="highscore" class="flex items-center justify-center ">
+              View Highscores
+          </div>
+          <p id="timer" class="flex items-center justify-center">Time: 0</p>
+          <header class="header">
+            
+        </header>
+          
+      </div>
             <div id="high-scores" class="score-card hide">
-            <h1>High Scores</h1>
+            <h3>High Scores</h3>
             <div id="scores-list" class="scores">
             
             
@@ -115,10 +117,11 @@
             
                 <a href="index.html"><button id="back">Go Back</button></a>
                 <button id="clear">Clear Highscores</button>
+                
             </div>
             </div>
         </div>
-        
+
             
             
               <script src="./assets/script.js"></script>
