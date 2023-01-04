@@ -12,7 +12,7 @@ Animal content feed, for all animal lovers with amazing features such a daily an
 ## APIs
 ***
 A list of API's used within the project:
-* [Technology name](https://example.com): Version 12.3 
+* [Open Weather API](https://openweathermap.org/current#one): Version 2.5 
 * [Technology name](https://example.com): Version 2.34
 * [Library name](https://example.com): Version 1234
 ## Installation
