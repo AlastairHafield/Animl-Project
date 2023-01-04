@@ -29,11 +29,6 @@ nav {
     justify-content: space-between;
 }
 
-nav .logo {
-    width: 120px;
-    cursor: pointer;
-}
-
 nav ul li {
     list-style: none;
     display: inline-block;
@@ -48,6 +43,24 @@ nav ul li a {
 
 nav ul li a:hover {
     color: salmon;
+}
+
+.logo {
+    width: 150px;
+}
+
+.today { /*weather styling*/
+    color: #fff;
+    font-size: 12px;
+}
+
+.w-icon {
+    transform: scale(0.7); /* image will be 50% of its original size */
+    margin: auto;
+}
+
+.other { /*3 lines of text under weather icon*/
+    text-align: center;
 }
 
 .content {
