@@ -21,20 +21,20 @@ body {
   align-items: flex-end;
 }
 .button {
-  background-color: grey;
+  text-align: center;
+  background-color: transparent;
   font-size: x-large;
   padding: 10px;
   border-radius: 20px;
   border-color: crimson;
 }
-.bears {
-  display: flex;
-  font-size: 30px;
-  padding: auto;
-}
+
 .bear-container {
-  background-image: url(./img/kodiak-brown-bear-adult-portrait-wildlife-158109.jpeg);
+  background-image: url(./img/pexels-photobear.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
+  color: white;
 }
 
 .dogs {
@@ -47,6 +47,7 @@ body {
   background-image: url(./img/pexels-photo-333083dog2.jpeg);
   background-repeat: no-repeat;
   background-size: contain;
+  color: white;
   width: 100%;
 }
 .cats {
@@ -66,6 +67,21 @@ body {
   display: flex;
   font-size: 30px;
   padding: auto;
+}
+
+.snake-container {
+  background-image: url(./img/snake-rattlesnake-reptile-skin.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  color: white;
+}
+.spider-container {
+  background-image: url(./img/spin-web-nature-bug-51394.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  color: white;
 }
 .spiders {
   display: flex;
