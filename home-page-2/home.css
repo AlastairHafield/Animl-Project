@@ -45,6 +45,10 @@ nav ul li a:hover {
     color: salmon;
 }
 
+.logo {
+    width: 150px;
+}
+
 .today { /*weather styling*/
     color: #fff;
     font-size: 12px;
