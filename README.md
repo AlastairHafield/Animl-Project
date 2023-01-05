@@ -10,7 +10,7 @@ From this website you can access the menu bar to take you to your chosen page.
 * From the Mix page when I refresh the page it displays different animals.
 # TEAM MEMBERS
 * SOPHIA ALTAF
-* ALSTAIR HATFIELD
+* ALASTAIR HATFIELD
 * INDIA TAYLOR
 * JOSEPH COTTERELL
 # TECHNOLOGIES USED
