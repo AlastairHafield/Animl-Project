@@ -63,6 +63,7 @@ nav ul li a:hover {
 }
 
 #bear-container {
+  background-image: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
   background-image: url(./img/pexels-photobear.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -79,6 +80,7 @@ nav ul li a:hover {
   display: none;
 }
 .dog-container {
+  background-image: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
   background-image: url(./img/pexels-photo-333083dog2.jpeg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -92,6 +94,7 @@ nav ul li a:hover {
 }
 
 .cat-container {
+  background-image: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
   background-image: url(./img/pexels-photo-617278cat.jpeg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -105,6 +108,7 @@ nav ul li a:hover {
 }
 
 .snake-container {
+  background-image: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
   background-image: url(./img/snake-rattlesnake-reptile-skin.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -112,6 +116,7 @@ nav ul li a:hover {
   color: white;
 }
 .spider-container {
+  background-image: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
   background-image: url(./img/pexels-photo-1018177spider3.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
