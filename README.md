@@ -1,4 +1,4 @@
-ANIML PROJECT
+## ANIML PROJECT
 A website that allows lovers of Animls to view content through this website.
 This website offers a quiz, random animal facts, checking the weather forecast as well as videos and pictures.
 The Homepage is set against a video background and makes the website immediatly captivating.
