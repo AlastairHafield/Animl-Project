@@ -19,7 +19,7 @@ Application uses the following technologies
 * PIXABAY
 * Tailwindcss- a technology not previously covered in class
 # SCREENSHOT
-Screen shot of Homepage
+![READMESCREENSHOT](img/homepage.png)
 # LINKS TO THE PROJECT
 https://github.com/AlastairHafield/Animl-Project
 https://alastairhafield.github.io/Animl-Project/home.html/
