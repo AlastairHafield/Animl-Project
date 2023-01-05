@@ -8,7 +8,7 @@
 ***
 Animal content feed, for all animal lovers with amazing features such a daily animal quiz, animal facts and random animal content. 
 ### Screenshot
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
+![Image text](home-page-2/assets/logo.png)
 ## APIs
 ***
 A list of API's used within the project:
