@@ -1,4 +1,4 @@
-//how do i link this to html
+
 
 //async function getWeatherData() {
   // await navigator.geolocation.getCurrentPosition(async function(position) {
