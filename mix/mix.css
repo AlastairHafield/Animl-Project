@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+
+
+
 html{
-    background-image: url('pexels-ellie-burgin-9946105.jpg');
+    background-image: url('assets/pexels-ellie-burgin-9946104.jpg');
     background-size: cover;
     
   }

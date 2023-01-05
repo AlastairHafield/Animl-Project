@@ -6,24 +6,25 @@
   <title>Animl</title>
   <script src="https://code.jquery.com/jquery-3.6.2.js"></script>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-  <link rel="stylesheet" href="assets/mix.css">
+  <link rel="stylesheet" href="mix/mix.css">
 
 </head>
 <body>
   <nav>
-    <img src="" class="logo">
+    <img src="mix/assets/logo.png" class="logo">
     <ul>
-        <li><a href="#">HOME</a></li>
+        <li><a href="home.html">HOME</a></li>
         <li><a href="#">QUIZ</a></li>
-        <li><a href="#">FACTS</a></li>
-        <li><a href="#">NEWS</a></li>
-        <li><a href="#">MIX</a></li>
+        <li><a href="animl.facts.html">FACTS</a></li>
+        <li><a href="mix.html">MIX</a></li>
+        <li><a href="news.html">NEWS</a></li>
     </ul>
 </nav>
   <div class="container mx-auto mt-10 ">
     <div class="flex justify-between items-center mb-6">
-        <button id="mix-button">Mix</button>
+        <button id="mix-button" class="mt-10">Mix</button>
     </div>
     <div class="flex flex-wrap justify-center opacity-90">
       <div class="w-1/5 overflow-hidden mx-4 my-4 modal-open bg-gray-700">
@@ -154,6 +155,6 @@
           </div>
         </div>
       </div>
-      <script src="assets/mix.js"></script>
+      <script src="mix/mix.js"></script>
     </body>
     </html>

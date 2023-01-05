@@ -37,7 +37,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 17px;
 }
 
@@ -62,14 +62,15 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
-#bear-container {
-  background-image: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
-  background-image: url(./img/pexels-photobear.jpg);
+
+.bear{
+  background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3)), url(./img/pexels-photobear.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   color: white;
 }
+
 
 .dogs {
   display: flex;
@@ -80,8 +81,7 @@ nav ul li a:hover {
   display: none;
 }
 .dog-container {
-  background-image: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
-  background-image: url(./img/pexels-photo-333083dog2.jpeg);
+  background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3)), url(./img/pexels-photo-333083dog2.jpeg);
   background-repeat: no-repeat;
   background-size: contain;
   color: white;
@@ -94,8 +94,8 @@ nav ul li a:hover {
 }
 
 .cat-container {
-  background-image: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
-  background-image: url(./img/pexels-photo-617278cat.jpeg);
+
+  background-image:linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3)), url(./img/pexels-photo-617278cat.jpeg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
@@ -108,16 +108,14 @@ nav ul li a:hover {
 }
 
 .snake-container {
-  background-image: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
-  background-image: url(./img/snake-rattlesnake-reptile-skin.jpg);
+  background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3)), url(./img/snake-rattlesnake-reptile-skin.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   color: white;
 }
 .spider-container {
-  background-image: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
-  background-image: url(./img/pexels-photo-1018177spider3.jpeg);
+  background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3)), url(./img/pexels-photo-1018177spider3.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
