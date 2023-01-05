@@ -16,4 +16,8 @@ navigator.geolocation.getCurrentPosition(function(position) {
         document.getElementById('city').innerHTML = weatherData;
       });
   });
+
+
+
+
   

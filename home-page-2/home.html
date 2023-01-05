@@ -7,13 +7,36 @@
     <title>Animl. Home</title>
     <link rel="icon" type="image/png" sizes="32x32" href="../home-page-2/assets/favicon-32x32-elephant.png">
     <!--elephant favicon-->
+    <script src="https://kit.fontawesome.com/f0ab35532d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/home-page-2/home.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/home-page-2/subs-popup.css">
 </head>
 
 
 <body>
-    <div class="hero">
+    <!--EMAIL POPUP-->
+    <div class="email-popup-screen">
+        <div class="email-popup">
+            <div class="fa-solid fa-times"></div>
+            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="content">
+                <h2>Subscribe</h2>
+                <p>and get the latest <span>Animl.</span> content</p>
+            </div>
+            <div class="email-form">
+                <form action="EmailPopup.html">
+                    <input type="email" placeholder="Email">
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="wrapper"> <!--EMAIL POPUP START-->
+
+
+    <div class="hero"> <!--NAV BAR + HERO DIV START-->
         <video autoplay loop muted plays-inline class="back-video">
             <source src="/home-page-2/assets/3226147185.mp4" type="video/mp4"> 
         </video>
@@ -26,21 +49,83 @@
                 <li><a href="#">MIX</a></li>
                 <li><a href="#">NEWS</a></li>
             </ul>
-            <div class="today"> <!--weather START-->
-                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
-                <div class="other">
-                    <div class="day">MON</div>
-                    <div class="city">CITY</div>
-                    <div class="temp">25.6&#176; C</div>
-                </div>
-            </div> <!--weather END-->
-        </nav>
+        </nav> <!--NAV BAR END-->
         <div class="content">
             <h1>Animl.</h1>
-            <a href="/home-page-2/subscribe.html">Subscribe</a>
-
         </div>
+
+        <div class="today"> <!--WEATHER START-->
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+            <div class="other">
+                <div class="day">MON</div>
+                <div class="city">CITY</div>
+                <div class="temp">25.6&#176; C</div>
+            </div>
+        </div> <!--WEATHER END-->
     </div> <!--HERO DIV END-->
+
+
+
+
+    <script type="text/javascript"> //POPUP JAVASCRIPT START
+        const closeBtn=document.querySelector(".fa-times");
+        const popupScreen=document.querySelector(".email-popup-screen");
+        const currentDate = new Date();
+        /*const ExpiryDate=localStorage.getItem('ExpiryDate');
+
+        if(ExpiryDate) {
+            var CD=new Date(currentDate); // javascript date conversion
+            var ED=new Date(ExpiryDate);
+
+            if(CD>ED){
+                //THIS EVENT LOADS AFTER 3 SECONDS(3000 MILLISECONDS) OF PAGE LOAD
+                window.addEventListener("load",()=>{
+                setTimeout (()=>{
+                popupScreen.classList.add("active");
+                },3000)
+            });
+
+        //THIS ENSURES POPUP ONLY DISPLAYS ONCE A WEEK CAN CHANGE TO ONCE A DAY (+7)
+        currentDate.setDate(new Date().getDate()+7); //every 7 days
+        localStorage.setItem('ExpiryDate',currentDate);
+
+
+            }
+            else{
+                popupScreen.classList.remove("active");
+
+            }
+        }
+        closeBtn.addEventListener("click",()=>{
+            popupScreen.classList.remove("active");
+        });*/
+
+        window.addEventListener("load",()=>{
+                setTimeout (()=>{
+                popupScreen.classList.add("active");
+                },3000)
+            });
+
+        closeBtn.addEventListener("click",()=>{
+        popupScreen.classList.remove("active");
+        });
+    </script> 
+
+<script> //ANIML. ICON AUDIO START
+    let audioButton = document.querySelector('.logo');   // <-- Change CSS Class Here
+           audioButton.addEventListener('click', function(){
+            var audio = document.getElementById("audio");
+    
+             if (audio.paused) {
+                audio.play();
+            }else{
+                audio.pause();
+                // audio.currentTime = 0
+            }
+          });
+        </script>
+    
+        <audio id="audio" src="/home-page-2/assets/nature.mp3"></audio>
 
     <script src="/home-page-2/home.js"></script>
     
