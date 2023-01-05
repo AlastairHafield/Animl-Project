@@ -21,6 +21,6 @@ Application uses the following technologies
 # SCREENSHOT
 ![READMESCREENSHOT](homepage.png)
 # LINKS TO THE PROJECT
-https://github.com/AlastairHafield/Animl-Project
-https://alastairhafield.github.io/Animl-Project/home.html/
-https://docs.google.com/presentation/d/14KfFfIOZsMRX75JcRey-iXDEwwbvE_z1YJnHx8hTcOU/edit#slide=id.g1ca099c5c20_1_45
+*https://github.com/AlastairHafield/Animl-Project
+*https://alastairhafield.github.io/Animl-Project/home.html/
+*https://docs.google.com/presentation/d/14KfFfIOZsMRX75JcRey-iXDEwwbvE_z1YJnHx8hTcOU/edit#slide=id.g1ca099c5c20_1_45
