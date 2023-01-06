@@ -9,7 +9,7 @@
     --after-color: #000680;
    }
    body {
-    background-image: url('./Kitten.jpg');
+    background-image: url('kitten.jpg');
     background-size: cover;
     /* background-image: linear-gradient(rgba(12,3,51,0.3),rgb(244, 244, 244)), url(./assets/Jungle-Vista2.jpg); */
     background-repeat: no-repeat;
